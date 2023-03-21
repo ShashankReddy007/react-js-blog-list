@@ -1,1 +1,26 @@
 /* Write your CSS code here */
+*{
+    font-family: roboto;
+}
+.contact-container {
+    width: 400px;
+}
+.title-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.date {
+    font-weight: 200;
+    color: #9aa5b1;
+}
+
+.description {
+    font-weight: 200;
+    color: #9aa5b1;
+}
