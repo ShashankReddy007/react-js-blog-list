@@ -5,13 +5,12 @@ const BlogItem = props => {
   const {title, description, publishedDate} = item
 
   return (
-    <li className="contact-container">
+    <li className="blog-item">
       <div className="title-date">
-        <p className="title">{title}</p>
+        <h1 className="title">{title}</h1>
         <p className="date">{publishedDate}</p>
       </div>
       <p className="description">{description}</p>
-      <hr className="horizontal-line" />
     </li>
   )
 }

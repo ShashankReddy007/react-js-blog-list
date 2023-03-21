@@ -13,7 +13,7 @@ const blogsList = [
     id: 2,
     title: 'My second post',
     description:
-      'A high quality solution beautifully designed for startups and Business schools',
+      'A high quality solution beautifully designed for startups and Bussiness schools',
     publishedDate: 'Mar 1st',
   },
   {

@@ -6,7 +6,7 @@ const BlogList = props => {
   const {id, title, description, publishedDate} = blogsList
 
   return (
-    <ul className="list-container">
+    <ul className="blog-list">
       {blogsList.map(item => (
         <BlogItem item={item} key={item.id} />
       ))}

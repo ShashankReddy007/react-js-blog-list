@@ -1,26 +1,37 @@
-/* Write your CSS code here */
-*{
-    font-family: roboto;
+.blog-item {
+  width: 100%;
+  border-bottom: 1px solid #e7e5ea;
+  list-style-type: none;
 }
-.contact-container {
-    width: 400px;
-}
+
 .title-date {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .title {
-    font-weight: bold;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #12022f;
 }
 
 .date {
-    font-weight: 200;
-    color: #9aa5b1;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9aa5b1;
 }
 
 .description {
-    font-weight: 200;
-    color: #9aa5b1;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9aa5b1;
 }
